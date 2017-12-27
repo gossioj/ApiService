@@ -23,7 +23,7 @@ namespace ApiService
                         IsSuccesful = response.IsSuccessStatusCode,
                         Message = $"{response.ReasonPhrase} {response.RequestMessage}",
                         Result = null
-                    };
+                    };                    
                 }
 
                 var listAsync = JsonConvert.DeserializeObject<List<T>>(resultAsync);
