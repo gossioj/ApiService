@@ -22,7 +22,7 @@ namespace ApiService
                     {
                         IsSuccesful = response.IsSuccessStatusCode,
                         Message = $"{response.ReasonPhrase} {response.RequestMessage}",
-                        Result = new List<T>()
+                        Result = new List<T>() 
                     };                    
                 }
 
