@@ -8,7 +8,7 @@ namespace ApiService
 {
     public class ApiServiceRest
     {
-        public async Task<Resource> GetList<T>(string urlBase, string controller)
+        public async Task<Resource> GetListRest<T>(string urlBase, string controller)
         {
             try
             {

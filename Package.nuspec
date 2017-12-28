@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Gossio.Service.Api</id>
-    <version>1.0.1</version>
+    <id>Gossio.Service.ApiRest</id>
+    <version>1.0.0.1</version>
     <authors>Gustavo Ossío</authors>
     <owners>Gustavo Ossío</owners>
     <licenseUrl>https://github.com/gossioj/ApiService</licenseUrl>
     <projectUrl>https://github.com/gossioj/ApiService</projectUrl>
-    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <iconUrl>https://github.com/gossioj/ApiService/blob/master/ApiService/Resource/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>App Service to consume http rest</description>
+    <title>Service Rest</title>
+    <description>Service to consume http rest in a easy way</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
-    <copyright>Copyright 2017</copyright>
-    <tags>Tag1 Tag2</tags>
+    <copyright>Gossio Copyright 2017</copyright>
+    <tags>#Gossio</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="10.0.3" />
     </dependencies>
@@ -23,6 +24,5 @@
     <!--If you wanna add a Class
       <file src="ApiService\MyClass.cs" target="content\myfolder\MyClass.cs"></file>
     -->
-
   </files>
 </package>
