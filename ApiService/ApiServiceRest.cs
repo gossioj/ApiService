@@ -22,7 +22,7 @@ namespace ApiService
                     {
                         IsSuccesful = response.IsSuccessStatusCode,
                         Message = $"{response.ReasonPhrase} {response.RequestMessage}",
-                        Result = null
+                        Result = new List<T>()
                     };                    
                 }
 
@@ -41,7 +41,7 @@ namespace ApiService
                 {
                     Message = $"Error: {e.Message}",
                     IsSuccesful = false,
-                    Result = null
+                    Result = new List<T>()
                 };
             }
 
